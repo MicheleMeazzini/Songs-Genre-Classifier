@@ -1,4 +1,4 @@
-# 🎶 Songs-Genre-Classifier
+# 🎶 Musical-Genre-Classifier
 
 Project developed for the **Data Mining and Machine Learning** course  
 *MSc in Artificial Intelligence and Data Engineering – University of Pisa*  
@@ -43,5 +43,3 @@ Project developed for the **Data Mining and Machine Learning** course
 
 ## 👤 Author
 Michele Meazzini
-  ```bash
-  pip install pandas numpy scikit-learn matplotlib seaborn jupyter
