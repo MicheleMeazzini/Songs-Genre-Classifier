@@ -20,20 +20,19 @@ Project developed for the **Data Mining and Machine Learning** course
 ## 🔑 Main Components
 
 1. **Data Collection**  
-   - Importing the dataset of songs with audio features.  
+   - Extraction of relevant audio features from input files.   
    - Data quality check (missing values, class distribution, redundancies).  
 
 2. **Preprocessing & Feature Engineering**  
-   - Data cleaning and feature normalization.  
-   - Extraction of relevant audio features (e.g., spectral features, energy, MFCC, etc.).  
-   - Dimensionality reduction when needed (PCA / feature selection).  
+   - Data cleaning and feature normalization. 
+   - Dimensionality reduction (PCA, RFE).  
 
 3. **Classification Models**  
-   - Tested algorithms: *k-NN, Decision Tree, Random Forest, SVM, Neural Networks*.  
-   - Training with cross-validation.  
+   - Tested algorithms: *LinearRegression, SVM, Decision Tree, Random Forest*.  
+   - Training with GridSearch with cross-validation.  
 
 4. **Evaluation**  
-   - Metrics: *accuracy, precision, recall, F1-score, confusion matrix*.  
+   - Metrics: *accuracy, precision, recall, F1-score, confusion matrix, ROC curve*.  
    - Error analysis and model comparison.  
 
 5. **Results & Conclusions**  
